@@ -14,7 +14,7 @@ title: "UC Berkeley - Chem 280 - Foundations of Programming and Software Enginee
 
 # Life cycle stage of the lesson
 # possible values: "pre-alpha", "alpha", "beta", "stable"
-life_cycle: "pre-alpha"
+life_cycle: "stable"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
