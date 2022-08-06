@@ -16,7 +16,7 @@
 
       {% comment %} Select what logo to display. {% endcomment %}
       <a href="{{ site.molssi_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ page.root }}/assets/img/msse-logo.jpg" alt="The Molecular Sciences Software Institute" />
+        <img class="navbar-logo" src="{{ page.root }}/assets/img/msse-logo.jpg" alt="UC Berkeley MSSE" />
       </a>
 
       {% comment %} Always show link to home page. {% endcomment %}
@@ -26,9 +26,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
 
+  {% comment %} Always show course assignments. {% endcomment %}
+        <li><a href="{{ relative_root_path }}{% link assignments.md %}">Course Assignments</a></li>
+
 	{% comment %} Always show code of conduct. {% endcomment %}
         <li><a href="{{ relative_root_path }}{% link CODE_OF_CONDUCT.md %}">Code of Conduct</a></li>
-
+        
         {% if site.kind == "lesson" %}
 	{% comment %} Show setup instructions. {% endcomment %}
         <li><a href="{{ relative_root_path }}{% link setup.md %}">Setup</a></li>
