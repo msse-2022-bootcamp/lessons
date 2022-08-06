@@ -2,7 +2,6 @@
 title: Setup
 ---
 
-# Setup
 Participation in the MSSE Bootcamp will require use of your own personal computer or laptop and installation of some software.
 
 > ## Windows users take note

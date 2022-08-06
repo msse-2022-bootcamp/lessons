@@ -2,6 +2,14 @@
 layout: base
 ---
 {% include main_title.html %}
+
+<blockquote class="checklist">
+    <h2>Page Contents</h2>
+    <div id="table-of-contents">
+      {% include toc.html html=content %}
+    </div>
+</blockquote>
+
 <article>
 {{content}}
 </article>
