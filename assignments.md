@@ -47,14 +47,14 @@ You will only need to click the link once to make the assignment.
 
 ## Group Project Repositories
 
-A link to create your group repository will be added here.
+A link will be added here when we start using group repositories.
 
 ### Daily Assignments
 
-Links to daily group assignments will be added here.
+Day        | Discussion                          |Assignment                           | Assignment Rubric
+-----------|-------------------------------------|-------------------------------------|
+1          | [Discussion](01-04-homework1)       | [Assignment](group/group1)          | [Rubric](group/rubric1)
 
 # Individual Assignments
-
-Links to individual assignments will be added here. 
 
 {% include links.md %}
