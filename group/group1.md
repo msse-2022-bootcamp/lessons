@@ -28,4 +28,4 @@ In order to complete this assignment, you must:
     - The pull request number (and link) of the pull request you reviewed.
 
 # Grading
-This assignment is worth 5% of your total grade. See [the rubric](/assignments/group/rubric1) for detailed grading.
+This assignment is worth 5% of your total grade. See [the rubric](/group/rubric1) for detailed grading.
