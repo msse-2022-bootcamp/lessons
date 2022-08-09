@@ -37,21 +37,13 @@ This can lessen computational time significantly, since the energy calculation h
 A common cutoff distance is $$3 \sigma$$.
 
 Create a Jupyter notebook named `lastname_firstname_task1` and write your answer to the questions in a markdown cell. You will have to write code to answer
-the questions.
+the question:
 
 1. Do you agree with this choice of cutoff? Why or why not? Justify your answer with numbers.
-2. Consider the starter code below. Put this starter code into a new Jupyter notebook and add code from today's class that you need to complete the assignment.
-
-This code contains a list of distances and a calculation of the Lennard Jones energy for those distances. If you used a cut-off of $$3 \sigma$$, how many fewer computations would be performed? By how much does it affect the total calculated energy? 
-
-```python
-** CODE HERE TODO **
-
-
-```
 
 ## Task 2 - Tail Correction
-Truncating interactions using a cutoff removes contribution to the potential energy that might be non-negligible.  The tail correction for our system makes a correction for use of the cutoff. We only have to calculate this once at the start of our simulation. The formula is:
+Truncating interactions using a cutoff removes contribution to the potential energy that might be non-negligible. 
+ The tail correction for our system makes a correction for use of the cutoff. We only have to calculate this once at the start of our simulation. The formula is:
 
 $$ U_{tail} = \frac{8 \pi N^2}{3 V} \epsilon \sigma^3
 	\left[\frac{1}{3} \left(\frac{\sigma}{r_c} \right)^9 
