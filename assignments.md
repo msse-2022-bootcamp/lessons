@@ -47,7 +47,7 @@ You will only need to click the link once to make the assignment.
 
 ## Group Project Repositories
 
-A link will be added here when we start using group repositories.
+[Create group code repository](https://classroom.github.com/a/liQdHxcC)
 
 ### Daily Assignments
 
