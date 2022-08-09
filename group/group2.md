@@ -9,7 +9,7 @@ title: "Group Assignment Day 2"
 </script>
 
 
-Complete the background reading for this assignment. You can find this on the course website.
+Complete the background reading for this assignment. You can find this on the course website. Answer the discussion questions and include them with your programming assignment.
 
 This homework focuses on computational "tricks" that are used to more effectively model a bulk system. We employ a distance cut-off to greatly reduce the number of calculations, while periodic boundaries allows us to simulate an "infinite" system.
 
@@ -29,21 +29,19 @@ For this homework, you must complete one of three coding tasks.
 These tasks are of varying difficulty, but remember that you can work together as a team. 
 
 ## Task 1 - Exploring the LJ Potential and Cutoffs
-Use your `calculate_LJ` function to calculate the Lennard Jones potential energy for a range of distances, `r`, from `r = 0.1` to `r = 5` in increments of `0.1`. Create a plot of this data (you will need to set the y limit to see anything meaningful. Remember from class that the minimum of this function will occur at `r=1` and will be equal to -1).
+Use your `calculate_LJ` function to calculate the Lennard Jones potential energy for a range of distances, `r`, from `r = 0.1` to `r = 5` in increments of `0.1`. Create a plot of this data (you will need to set the y limit to see anything meaningful. Remember from class that the minimum of this function will occur at `r=1` and will be equal to -1). You may only use modules and functions which are contained in the Python standard library to answer this question.
 
 Most often when we are running a simulation with pairwise potentials, we will use something called a `cutoff distance`. This is a distance after which the interaction energy between two particles is not calculated and is assumed to be zero. 
 This can lessen computational time significantly, since the energy calculation has to be performed for fewer particles.
 
 A common cutoff distance is $$3 \sigma$$.
 
-Create a Jupyter notebook named `lastname_firstname_task1` and write your answer to the questions in a markdown cell. You will have to write code to answer
-the question:
-
 1. Do you agree with this choice of cutoff? Why or why not? Justify your answer with numbers.
 
+Create a Jupyter notebook named `lastname_firstname_task1` and write your code for the coding challenge in a code cell and your answer to the question in a markdown cell.
+
 ## Task 2 - Tail Correction
-Truncating interactions using a cutoff removes contribution to the potential energy that might be non-negligible. 
- The tail correction for our system makes a correction for use of the cutoff. We only have to calculate this once at the start of our simulation. The formula is:
+Truncating interactions using a cutoff removes contribution to the potential energy that might be non-negligible.  The tail correction for our system makes a correction for use of the cutoff. We only have to calculate this once at the start of our simulation. The formula is:
 
 $$ U_{tail} = \frac{8 \pi N^2}{3 V} \epsilon \sigma^3
 	\left[\frac{1}{3} \left(\frac{\sigma}{r_c} \right)^9 
@@ -62,9 +60,7 @@ where $$V$$ is the volume of the simulation box, and $$N$$ is the number of part
 Create a Jupyter notebook called `lastName_firstName_task2` and do the following using a combination of markdown and code cells.
 
 1. Write a function `calculate_tail_correction` which calculates the tail correction. Your function should have `box_length`, `n_particles` (number of particles) and `cut-off` as function parameters. You can calculate the volume of the box from the `box_length`. Assume a cubic box, so volume is equal to `box_length**3`.
-2. Write an `assert` statement to check against the reported value from [NIST](https://www.nist.gov/mml/csd/chemical-informatics-research-group/lennard-jones-fluid-reference-calculations). The value you are looking for is $$U_{LRC}$$. We were using `Configuration 1` in class.
-3. Write two other test cases for your function.
-4. Write an explanation of your test cases in a mark down cell. 
+2. Write an `assert` statement to check against the reported value from [NIST](https://www.nist.gov/mml/csd/chemical-informatics-research-group/lennard-jones-fluid-reference-calculations). The value you are looking for is $$U_{LRC}$$. We were using `Configuration 1` in class. 
 
 ## Task 3 - Periodic boundaries
 

@@ -20,29 +20,25 @@ This assignment is worth 5% of your grade and will be graded out of 5 points.
         <p>Task 1 - LJ Potential</p> 
         <ul>
             <li>Create a plot of energy vs. distance.
-            <li>Exploration of number of computations for cut-off.
-            <li>Answers to questions.
+            <li>Answers to question.
     <td>
-        <p>3 points total</p>
+        <p>2 points total</p>
         <ul>
             <li> 1 point
             <li> 1 point
-            <li> 1 points
 <tr>
     <td>
         <p>Task 2 - Tail Correction</p> 
         <ul>
             <li>Tail correction function written.
-            <li>Test cases.
-            <li>Answers to questions.
+            <li>Test case.
         
     
     <td>
-        <p>3 points total</p>
+        <p>2 points total</p>
         <ul>
             <li> 1 point
             <li> 1 point
-            <li> 1 points
     
 
 <tr>
@@ -51,24 +47,30 @@ This assignment is worth 5% of your grade and will be graded out of 5 points.
         <ul>
             <li>Calculate distance function rewritten for periodic boundaries.
             <li>Test cases.
-            <li>Answers to questions.
         
     
     <td>
-        <p>3 points total</p>
+        <p>2 points total</p>
         <ul>
             <li> 1 point
             <li> 1 point
-            <li> 1 points
         
-    
+ <tr>
+    <td>
+        <p>Discussion</p>
+        <ul>
+            <li> Answer Discussion Questions
+
+    <td>
+        <ul>
+        <p> 1 point total
+            <li> 1 point   
 
 <tr>
     <td>
         <p>Submission</p> 
         <ul>
-            <li>No extra files in final pull request.
-            <li>Descriptive commit messages.
+            <li>Descriptive commit messages, appropriate (no extra files).
         
     
     <td>
