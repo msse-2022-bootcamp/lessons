@@ -58,5 +58,6 @@ Day        | Discussion                          |Assignment                    
 3          | [Discussion](01-09-homework3)       | [Assignment](group/group3)          | [Rubric](group/rubric3)
 
 # Individual Assignments
+[Individual Assignment 1](https://classroom.github.com/a/elPogk3L)
 
 {% include links.md %}
