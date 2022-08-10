@@ -13,7 +13,7 @@ objectives:
 </script>
 
 ## Individual Homework Assignment
-This should be completed by each group member individually. **Individual assignments are due one week after being assigned**. The due date for this assignment is **August 17, 2021**.
+This should be completed by each group member individually. **Individual assignments are due one week after being assigned**. The due date for this assignment is due in one week. 
 
 Write a python script that estimates the value of $$\pi$$ by evaluating the following integral using Monte Carlo integration:
 
