@@ -26,4 +26,4 @@ A function for computing the RDF can be provided to you upon request, but if you
 
 
 ## Grading
-This assignment is worth 5% of your total grade. See [the rubric](/group/rubric3) for details on grading.
+This assignment is worth 5% of your total grade. See [the rubric](rubric3) for details on grading.

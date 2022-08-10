@@ -93,5 +93,5 @@ In order to complete this assignment, you must:
 5. Edit your personal group project assignment repo to contain links to your pull request the the pull request you have reviewed.
 
 ## Grading
-This assignment is worth 5% of your total grade. See [the rubric](/group/rubric2) for details on grading.
+This assignment is worth 5% of your total grade. See [the rubric](rubric2) for details on grading.
 
