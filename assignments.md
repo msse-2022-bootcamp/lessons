@@ -55,11 +55,8 @@ Day        | Discussion                          |Assignment                    
 -----------|-------------------------------------|-------------------------------------|
 1          | [Discussion](01-04-homework1)       | [Assignment](group/group1)          | [Rubric](group/rubric1)
 2          | [Discussion](01-07b-homework2)      | [Assignment](group/group2)          | [Rubric](group/rubric2)
+3          | [Discussion](01-09-homework3)       | [Assignment](group/group3)          | [Rubric](group/rubric3)
 
 # Individual Assignments
-
-Assignment Number       | GitHub Classroom Link
-------------------------|-----------------------
-1                       | [Link](https://classroom.github.com/a/elPogk3L)
 
 {% include links.md %}
