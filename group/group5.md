@@ -3,6 +3,10 @@ layout: page
 title: "Group Assignment Day 3"
 ---
 
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # Tasks
 
 The tasks "Adding NumPy MC to Package" and "Unit Tests" are required. 
@@ -63,7 +67,7 @@ The steps will be:
 
 Here is an RDF function using NumPy you can use. This function takes in pairwise particle distances for one configuration.
 
-```
+~~~
 def rdf(values, n_bins, max_value, num_particles, box_length):
     """
     Compute the RDF for a set of values
@@ -96,4 +100,5 @@ def rdf(values, n_bins, max_value, num_particles, box_length):
     rdf = histogram / (4 * math. pi * bin_centers**2 * bin_size * num_particles ** 2 / box_length ** 3)
 
     return bin_centers, rdf
-```
+~~~
+{: .lanugage-python}
