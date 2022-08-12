@@ -101,4 +101,4 @@ def rdf(values, n_bins, max_value, num_particles, box_length):
 
     return bin_centers, rdf
 ~~~
-{: .lanugage-python}
+{: .language-python}
