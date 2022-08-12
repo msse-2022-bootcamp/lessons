@@ -47,8 +47,10 @@ $$
 
 
 $$
-P_{tail} = \frac{16 \pi N^2}{3 V^{*2}} \left[\frac{2}{3} (\frac{1}{r^*})^9 - (\frac{1}{r^*})^3\right] 
+P_{tail} = \frac{16 \pi N^2}{3 V^{*2}} \left[\frac{2}{3} (\frac{1}{r_c^*})^9 - (\frac{1}{r_c^*})^3\right] 
 $$
+
+where $$r_c$$ is the cut-off distance.
 
 Should this be added to your MC loop, or used as a post-processing analysis? (meaning that coordinates would be saved during similation and you perform calculate these values after)
 
