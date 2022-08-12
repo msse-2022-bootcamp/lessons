@@ -59,7 +59,7 @@ Day        | Discussion                          |Assignment                    
 5          | [Discussion](01-17-homework5)       | [Assignment](group/group5)          | [Rubric - coming soon]
 
 # Individual Assignments
-[Individual Assignment 1](https://classroom.github.com/a/elPogk3L)
-[Individual Assignment 2](https://classroom.github.com/a/ouTfqdEO)
+- [Individual Assignment 1](https://classroom.github.com/a/elPogk3L)
+- [Individual Assignment 2](https://classroom.github.com/a/ouTfqdEO)
 
 {% include links.md %}
