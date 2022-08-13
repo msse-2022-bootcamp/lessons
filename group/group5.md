@@ -44,7 +44,7 @@ $$
 P^* = \frac{1}{3V^*} \left< 3 N T^* + \sum_{i < j} \textbf{f*}_i \cdot \textbf{r*}_i  \right>
 $$
 
-The angle brackets in this
+The angle brackets in this equation represent the time average (this would mean that the pressure of the system is the average of the pressure for many configurations).
 
 The equation for $$ f $$, above, represents the the vector of force between two particles).  To write a function for the pressure, it's helpful to simply the equations above mathematically first. You will notice that $$ f^* $$ is a function of the distance between two particles ( $$ r_{ij} $$ ) multiplied by the vector $$ r $$. If you fill this into the equation for $$ P^* $$, you will have the dot product of some scalar (based on the distance between particles) times the vector $$ r $$ itself (ie r dot r). The dot product of $$ r $$ with itself will give you $$ r ^ 2 $$ in your numerator, allowing you to cancel out $$ r ^ 2 $$ in the denominator of $$ f^* $$. 
 
