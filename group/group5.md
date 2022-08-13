@@ -49,13 +49,13 @@ To write functions for these, it's helpful to simply them mathematically first. 
 You will be left with the following equation for the pressure
 
 $$
-P^* = \frac{1}{3V^*} \left< 3 N T^* + \sum_{i < j} f^*(r)
+P^* = \frac{1}{3V^*} \left( 3 N T^* + \sum_{i < j} f^*(r) \right)
 $$
 
 where 
 
 $$
-48 [(\frac{1}{r_{ij}})^{12} - \frac{1}{2}(\frac{1}{r_{ij}})^{6}] 
+f^*(r_{ij}) = 48 [(\frac{1}{r_{ij}})^{12} - \frac{1}{2}(\frac{1}{r_{ij}})^{6}] 
 $$
 
 And the tail correction is
