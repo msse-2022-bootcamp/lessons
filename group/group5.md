@@ -38,13 +38,27 @@ The pressure calculation is similar to the energy calcuation.
 You will need a tail correction to be calculated based on the number of particles and the box size.
 Then the pressure can be calculated according to the equations in reduced units:
 
-$$ f^*(r) = \frac{48}{r^2} [(\frac{1}{r_{ij}})^{12} - \frac{1}{2}(\frac{1}{r_{ij}})^{6}] \mathbf{r}^*_{ij}$$
+$$ \mathbf{f^*(r)} = \frac{48}{r^2} [(\frac{1}{r_{ij}})^{12} - \frac{1}{2}(\frac{1}{r_{ij}})^{6}] \mathbf{r}^*_{ij}$$
 
 $$ 
 P^* = \frac{1}{3V^*} \left< 3 N T^* + \sum_{i < j} \textbf{f*}_i \cdot \textbf{r*}_i  \right>
 $$
 
+To write functions for these, it's helpful to simply them mathematically first. You will notice that $$ f^* $$ is a function of the distance between two particles ( $$ r_{ij} $$ ) times the vector $$ r $$. If you fill this into the equation for $$ P^* $$, you will have the dot product of some scalar (based on the distance between particles) times the vector $$ r $$ and $$ r $$. The dot product of $$ r $$ with itself will give you $$ r ^ 2 $$, in your numerator, allowing you to cancel out $$ r ^ 2 $$ in the denominator of $$ f^* $$. 
 
+You will be left with the following equation for the pressure
+
+$$
+P^* = \frac{1}{3V^*} \left< 3 N T^* + \sum_{i < j} f^*(r)
+$$
+
+where 
+
+$$
+48 [(\frac{1}{r_{ij}})^{12} - \frac{1}{2}(\frac{1}{r_{ij}})^{6}] 
+$$
+
+And the tail correction is
 
 $$
 P_{tail} = \frac{16 \pi N^2}{3 V^{*2}} \left[\frac{2}{3} (\frac{1}{r_c^*})^9 - (\frac{1}{r_c^*})^3\right] 
