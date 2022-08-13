@@ -38,7 +38,7 @@ The pressure calculation is similar to the energy calcuation.
 You will need a tail correction to be calculated based on the number of particles and the box size.
 Then the pressure can be calculated according to the equations in reduced units:
 
-$$ \mathbf{f^*(r_ij)} = \frac{48}{r^2} [(\frac{1}{r_{ij}})^{12} - \frac{1}{2}(\frac{1}{r_{ij}})^{6}] \mathbf{r}^*_{ij}$$
+$$ \mathbf{f^*(r_{ij})} = \frac{48}{r^2} [(\frac{1}{r_{ij}})^{12} - \frac{1}{2}(\frac{1}{r_{ij}})^{6}] \mathbf{r}^*_{ij}$$
 
 $$ 
 P^* = \frac{1}{3V^*} \left< 3 N T^* + \sum_{i < j} \textbf{f*}_i \cdot \textbf{r*}_i  \right>
