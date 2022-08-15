@@ -57,6 +57,8 @@ Day        | Discussion                          |Assignment                    
 2          | [Discussion](01-07-hwdiscussion2)   | [Assignment](group/group2)          | [Rubric](group/rubric2)
 3          | [Discussion](01-09-hwdiscussion3)   | [Assignment](group/group3)          | [Rubric](group/rubric3)
 5          | [Discussion](01-17-hwdiscussion5)   | [Assignment](group/group5)          | [Rubric - coming soon]
+6          | [Discussion](02-03-hwdiscussion6)   | [Assignment](group/group6)          | [Rubric - coming soon]
+
 
 # Individual Assignments
 - [Individual Assignment 1](https://classroom.github.com/a/elPogk3L)
