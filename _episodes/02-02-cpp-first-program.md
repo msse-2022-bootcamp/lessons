@@ -11,7 +11,7 @@ objectives:
 - "Be able to debug compiler errors"
 keypoints:
 - "C++ must be compiled before it can be run, and can be compiled on the command line"
-- "C++ shares many of the same constructs as python (if, for, etc)
+- "C++ shares many of the same constructs as python (if, for, etc)"
 ---
 
 > ## Prerequisites
