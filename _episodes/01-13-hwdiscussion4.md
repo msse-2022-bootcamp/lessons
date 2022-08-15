@@ -1,9 +1,9 @@
 ---
-title: "Homework Assignment #4"
+title: "Group Homework Discussion Day 4"
 teaching: 0
 exercises: 120
 questions:
-- "What is the homework for the fourth day?"
+- "What's the homework discussion for day 4?"
 objectives:
 - "Rewrite simulation to use NumPy"
 - "Compare the timing of the two versions of code."

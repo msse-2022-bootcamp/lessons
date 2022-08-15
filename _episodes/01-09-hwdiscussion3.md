@@ -1,9 +1,9 @@
 ---
-title: "Group Homework Discussion #3"
+title: "Group Homework Discussion Day 3"
 teaching: 0
 exercises: 120
 questions:
-- "What is the homework for the third day?"
+- "What's the homework discussion for day 3?"
 objectives:
 - "Improve your MC simulation."
 - "Use your simulation to investigate conditions not reported by NIST."

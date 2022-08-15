@@ -1,9 +1,9 @@
 ---
-title: "Homework Assignment #5"
+title: "Group Homework Discussion Day 5"
 teaching: 0
 exercises: 120
 questions:
-- "What is the homework for the fifth day?"
+- "What's the homework discussion for day 5?"
 objectives:
 - "Add NumPy Monte Carlo Code to your package."
 - "Use pytest to write tests for your code."

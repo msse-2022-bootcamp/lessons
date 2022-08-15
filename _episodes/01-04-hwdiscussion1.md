@@ -1,9 +1,9 @@
 ---
-title: "Group Homework Assignment #1"
+title: "Group Homework Discussion Day 1"
 teaching: 0
 exercises: 60
 questions:
-- "What's the homework for the first day?"
+- "What's the homework discussion for day 1?"
 objectives:
 - "Work with your team on a collaborative repository."
 - "Open a pull request."

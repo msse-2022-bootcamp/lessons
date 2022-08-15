@@ -42,7 +42,7 @@ When you get in your groups, you can start your blog:
 
 [Create group blog repository](https://classroom.github.com/a/xUDnbu7A)
 
-Make sure that everyone in the group uses **exactly** the sa[me team name. The link will create a shared repository for you which you should do pull requests against.
+Make sure that everyone in the group uses **exactly** the same team name. The link will create a shared repository for you which you should do pull requests against.
 You will only need to click the link once to make the assignment.
 
 ## Group Project Repositories
@@ -53,10 +53,10 @@ You will only need to click the link once to make the assignment.
 
 Day        | Discussion                          |Assignment                           | Assignment Rubric
 -----------|-------------------------------------|-------------------------------------|
-1          | [Discussion](01-04-homework1)       | [Assignment](group/group1)          | [Rubric](group/rubric1)
-2          | [Discussion](01-07b-homework2)      | [Assignment](group/group2)          | [Rubric](group/rubric2)
-3          | [Discussion](01-09-homework3)       | [Assignment](group/group3)          | [Rubric](group/rubric3)
-5          | [Discussion](01-17-homework5)       | [Assignment](group/group5)          | [Rubric - coming soon]
+1          | [Discussion](01-04-hwdiscussion1)   | [Assignment](group/group1)          | [Rubric](group/rubric1)
+2          | [Discussion](01-07-hwdiscussion2)   | [Assignment](group/group2)          | [Rubric](group/rubric2)
+3          | [Discussion](01-09-hwdiscussion3)   | [Assignment](group/group3)          | [Rubric](group/rubric3)
+5          | [Discussion](01-17-hwdiscussion5)   | [Assignment](group/group5)          | [Rubric - coming soon]
 
 # Individual Assignments
 - [Individual Assignment 1](https://classroom.github.com/a/elPogk3L)
