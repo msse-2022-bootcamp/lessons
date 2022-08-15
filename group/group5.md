@@ -60,9 +60,10 @@ $$
 f^*(r_{ij}) = 48 [(\frac{1}{r_{ij}})^{12} - \frac{1}{2}(\frac{1}{r_{ij}})^{6}] 
 $$
 
-which is a function of the particle particle distance, $$ r_ij $$ .
+which is a function of the particle particle distance, $$ r_{ij} $$ . This is called the pair virial. Cutoffs and the minimum image convention (periodic boundaries) should be used for this calculation.
+You can loop over all of your particles and calculate this and compare to the [reported values from NIST](https://www.nist.gov/mml/csd/chemical-informatics-group/lennard-jones-fluid-reference-calculations-cuboid-cell) for our starting configurations (see $$ W_{pair} $$ in the table)
 
-And the tail correction is
+The tail correction is
 
 $$
 P_{tail} = \frac{16 \pi N^2}{3 V^{*2}} \left[\frac{2}{3} (\frac{1}{r_c^*})^9 - (\frac{1}{r_c^*})^3\right] 
