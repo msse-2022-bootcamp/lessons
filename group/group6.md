@@ -1,20 +1,13 @@
 ---
-title: "Homework Assignment #6"
-teaching: 0
-exercises: 60
-questions:
-- "What's the homework for day 6?"
-objectives:
-- "Calculate the value of an integral using the midpoint rule"
-keypoints:
-- ""
+layout: page
+title: "Group Assignment Day 6"
 ---
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-## About the project
+## About the assignment
 Your assignment is to again approximate the integral from the first individual
 assignment, however this time using the midpoint method in C++.
 The integral you are looking
@@ -83,9 +76,3 @@ for example, with your first homework by calling your function with *a=0*,
 $$\frac{\pi}{4} $$ as the number of points is increased. About how many points
 does it take to start converging to the proper result (4 decimal places)?
 
-## Discussion question
-
-We have now seen the Monte-Carlo method and the Riemann Sum method for
-approximating integrals. You will notice that the number of integration points
-for the Riemann Sum method is much less than the Monte-Carlo method. Why
-would you ever use the Monte-Carlo method?

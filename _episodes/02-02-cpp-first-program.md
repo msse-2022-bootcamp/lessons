@@ -129,6 +129,15 @@ Hello, world![ben@computer lessons]$
 ~~~
 {: .output}
 
+> ## Single vs. Double quotes
+> Python does not differentiate between single and double quotes for strings.
+> C/C++ does. Double quotes represent a string, while single quotes represent
+> a single character. Single quotes are much less common than double quotes.
+> So `"this is a string"` is a string, and `'a'` is a single character. Something
+> line `'this is a string'` does not make any sense, and should result in a
+> compiler warning or error.
+{: .callout}
+
 You will notice that it does not put a newline afterwards (as Python does),
 causing it to be on the same line as your prompt.
 
@@ -283,7 +292,7 @@ void say_hello(std::string name)
     {
         std::cout << "Hello, " << name << " (from MolSSI)" << std::endl;
     }
-    else if(name == "Dr. Johansen")
+    else if(name == "Dr. Drummond")
     {
         std::cout << "Hello, " << name << " (from Berkeley)" << std::endl;
     }
@@ -297,7 +306,7 @@ int main(void)
 {
     say_hello("Dr. Pritchard");
     say_hello("Dr. Nash");
-    say_hello("Dr. Johansen");
+    say_hello("Dr. Drummond");
     return 0;
 }
 ~~~
@@ -417,12 +426,43 @@ int main(void)
 {: .challenge}
 
 
+## While loops
+
+`while` loops are very similar in C++ and python, except the the conditional
+is again placed in parentheses.
+
+The following is equivalent to the previous `for` loop.
+~~~
+
+#include <iostream>
+
+void say_hello(std::string name)
+{
+    std::cout << "Hello, " << name << "!" << std::endl;
+}
+
+int main(void)
+{
+    int i = 0;
+    while(i < 10)
+    {
+        say_hello("Dr. Pritchard");
+        i++;
+    }
+
+    return 0;
+}
+~~~
+{: .language-cpp}
+
+
+
 ## A Pitfall for Python Programmers
 
-In C++, conditional statements and `for` loops introduce a new scope. Variables
-declared within these scopes cannot be accessed outside of the conditional
-or loop. This is allowed in Python, and is a common mistake in programmers
-moving from Python to C++.
+In C++, conditional statements, `for` loops, and `while` loops introduce a new
+scope. Variables declared within these scopes cannot be accessed outside of
+the conditional or loop. This is allowed in Python, and is a common mistake
+in programmers moving from Python to C++.
 
 ~~~
 int main(void)
@@ -443,6 +483,9 @@ int main(void)
 In this example, the `name` variable is declared inside the body of the `for`
 loop, and cannot be access from outside that loop. This is in contrast to
 Python, where such access is allowed.
+
+With `for` loops, the variable declared in the parentheses (in this case, `i`)
+are also only available inside the loop body, and not outside it.
 
 
 ## Compiler Errors
@@ -480,6 +523,7 @@ mess up are:
 1. Remove the `#include` line
 1. Misspell `iostream`, `std::cout`, or `main`
 1. Forget the second `<<` (so that it reads `std::cout << "Hello, world!" std::endl`)
+1. Replace a `<<` with `<`
 
 The errors you receive depend on the compiler and version of the compiler
 you are using.
