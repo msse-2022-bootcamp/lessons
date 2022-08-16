@@ -2,7 +2,6 @@
 title: "Arrays, Pointers, Memory, and Vectors"
 teaching: 120
 exercises: 60
-start: true
 questions:
 - What are pointers and references in C++
 - Why/when should I use a pointer or reference?
