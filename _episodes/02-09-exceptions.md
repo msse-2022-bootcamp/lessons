@@ -2,7 +2,6 @@
 title: "Exceptions"
 teaching: 45
 exercises: 10
-start: true
 questions:
 - "How do we handle major errors in C++?"
 - "How do exceptions differ from python?"
