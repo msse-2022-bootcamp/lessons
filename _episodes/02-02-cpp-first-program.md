@@ -432,8 +432,8 @@ int main(void)
 is again placed in parentheses.
 
 The following is equivalent to the previous `for` loop.
-~~~
 
+~~~
 #include <iostream>
 
 void say_hello(std::string name)
@@ -454,6 +454,52 @@ int main(void)
 }
 ~~~
 {: .language-cpp}
+
+
+## Continue and break
+
+There are two important flow control keywords used inside `for` and `while` loops.
+The `continue` keywords stops execution of the body and starts a new iteration
+from the beginning of the body, and `break` exits the loop immediately,
+with execution continuing on the statement after the loop.
+
+The example below shows the use of these keywords in a `for` loop,
+but they work exactly the same in a `while` loop.
+
+~~~
+#include <iostream>
+
+int main(void)
+{
+    int i = 0;
+
+    // Print only even numbers, up to 18
+    for(int i = 0; i < 200; i++)
+    {
+        // if i is odd, then continue to the next iteration
+        if(i % 2 == 1)
+        {
+            continue;
+        }
+
+        // print the number. This only gets run if
+        // i is even
+        std::cout << i << std::endl;
+
+        // if i is 18, break out of the loop
+        if(i == 18)
+        {
+            break;
+        }
+    }
+
+    std::cout << "Loop done!" << std::endl;
+
+    return 0;
+}
+~~~
+{: .language-cpp}
+
 
 
 
