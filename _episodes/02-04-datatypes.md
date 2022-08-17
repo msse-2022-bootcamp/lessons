@@ -1,7 +1,7 @@
 ---
 title: "Common data types"
-teaching: 120
-exercises: 60
+teaching: 30
+exercises: 15
 start: true
 questions:
 - "What are the common, built-in data types in C++pointers and references in C++"
