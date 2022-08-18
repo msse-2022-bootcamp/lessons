@@ -64,5 +64,6 @@ Day        | Discussion                          |Assignment                    
 - [Individual Assignment 1](https://classroom.github.com/a/elPogk3L)
 - [Individual Assignment 2](https://classroom.github.com/a/ouTfqdEO)
 - [Individual Assignment 3](https://classroom.github.com/a/_AehVIhb)
+- [Individual Assignment 4](https://classroom.github.com/a/wM5Wl-tW)
 
 {% include links.md %}
